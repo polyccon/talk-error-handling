@@ -12,7 +12,7 @@ As this workshop requires a fair amount of reading before getting to the actual 
  * Run the command ```npm install -g reveal-md``` from anywhere inside your terminal (this installs this [npm module](https://www.npmjs.com/package/reveal-md-export))
  * Clone this repo and cd into it
  * Run the command ```reveal-md```
- * A list of links will appear on a web page in your browser - the presentation is inside 000.md, all the other files are for backup, so click there!
+ * A list of links will appear on a web page in your browser - the presentation is inside **000.md**, all the other files are for backup, so click there!
  * Enjoy chatting some error handling!
  
  PS: Feel free to contact me for mentor notes.
