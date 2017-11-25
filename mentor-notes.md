@@ -86,7 +86,35 @@ Start reading it from the left to right and think about what will happen, with o
 -------------------
 slide 16
 
-the first plus will convert the "1" string to a number and then when it sees the second "1" it will convert both to strings.
+The first plus will convert the "1" string to a number and then when it sees the second "1" it will convert both to strings.
 The answer is "112"
 
 -------------------
+slide 17
+
+what about this ? Will this throw an error?
+```console.log( "A" - "B" + "2" );```
+So we are "minusing" 2 strings here, is that possible?
+
+-------------------
+slide 18
+
+So since "minusing" isn't possible with strings, JavaScript converts the 2 stings into numbers and that gives us NaN which is then converted to a string because of "2" that follows.
+The answer is "NaN2"
+
+-------------------
+slide 19
+
+what about this?
+```console.log( "A" - "B" + 2 );```
+
+-------------------
+slide 20
+
+so like the previous example, we have NaN plus 2 what does that give us?
+Answer is ```NaN```
+
+-------------------
+slide 21
+
+what about 
