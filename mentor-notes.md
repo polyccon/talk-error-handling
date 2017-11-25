@@ -117,4 +117,22 @@ Answer is ```NaN```
 -------------------
 slide 21
 
-what about 
+Last example which you will also read about in the readme, what about this? will this throw an error?
+```console.log( {number: 6} + 10 );```
+
+-------------------
+slide 22
+
+As you cannot add an object and a number, JavaScript will convert both to strings:
+```[object object]10```
+The conclusion is, that JavaScript will not throw an error in any of those examples.
+
+--------------------
+slide 23
+
+So, let's say in a real life web application senario, when would we have an unexpected data type conversion?
+
+(user input, web APIs)
+That is the situation in which we are interested in, data coming from somewhere that we dont have any control of, that we need to have an error handling strategy.
+
+----------------------
