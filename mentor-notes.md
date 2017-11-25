@@ -157,3 +157,8 @@ So. What approaches are there to error handling?
 1) Throw and catch
 2) Return an error to the caller
 3) Error first callbacks
+
+-------------------------
+slide 36
+
+and what are those? Great news I have this thing for you to read!
