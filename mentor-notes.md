@@ -136,3 +136,24 @@ So, let's say in a real life web application senario, when would we have an unex
 That is the situation in which we are interested in, data coming from somewhere that we dont have any control of, that we need to have an error handling strategy.
 
 ----------------------
+slide 24 -34
+
+1) The general princiles are:
+2) Assume your code will fail
+3) Handle your errors!
+4) Identify where errors might occur
+5) Throw your own errors: do so in the low levels of the application
+6) Handle your errors!
+7) Be consistent not ad hoc
+8) Handle your errors!
+9) Deal with the errors at the highest level of the application as possible
+10) HANDLE YOUR ERRORS!
+
+------------------------
+slide 35
+
+So. What approaches are there to error handling?
+
+1) Throw and catch
+2) Return an error to the caller
+3) Error first callbacks
