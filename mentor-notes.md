@@ -74,3 +74,19 @@ slide 14
 
 So JavaScript will see the string "2" following number 1 and will concatenate them into strings.
 The answer is "122"
+
+------------------
+slide 15
+
+what about this one?
+
+```console.log( +"1" + "1" + "2" );```
+Start reading it from the left to right and think about what will happen, with only the first two and forget about the third element.
+
+-------------------
+slide 16
+
+the first plus will convert the "1" string to a number and then when it sees the second "1" it will convert both to strings.
+The answer is "112"
+
+-------------------
