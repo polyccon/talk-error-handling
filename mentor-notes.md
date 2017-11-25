@@ -64,4 +64,13 @@ The answer is because JavaScript!
 ------------------
 slide 13
 
-So hold that thought, 
+So hold that thought, and we will have a little JavaScript conversation now.
+What do we expect as an output in the console when we type the following ?
+
+```console.log( 1 + "2" + "2" );```
+
+------------------
+slide 14
+
+So JavaScript will see the string "2" following number 1 and will concatenate them into strings.
+The answer is "122"
