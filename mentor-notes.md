@@ -1,6 +1,7 @@
-slide 1
+slide 1 
 
 Welcome to the error-handling 1.0. This is a brief introduction to error Handling, introducing the concepts in the workshop that you will do following this presentation. The exercise has been recently revised but not thoroughly tested, so should you notice anything that might be off be sure to let us know.
+
 ---------------
 slide 2
 
